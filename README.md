@@ -41,7 +41,8 @@ _This project will not turn into a framework and it will always be a resource fo
 - [ ] Add the [`Tree.tsx`](https://github.com/matt-development-work/React.js-TypeScript-UI-Component-Library-Sample-with-Testing-and-A11y/blob/master/src/components/Tree/Tree.tsx) component code as a React component.
 - [ ] Refactor the `root` data object and the `getTreeNodeWithId` function to the Express server and create endpoints for both.
 - [ ] Document evidence of runtime performance profiling metrics comparing the server approach to full client-side function execution just to fulfill curiosity. 🤔
-- [ ] Use request parameters to discern when to `GET` the functional code in its entirety and then run the method on the client side, and when to send parameters within the `GET` request to run the method on the server and receive only the returned data.
+- [ ] Use request parameters to discern when to `GET` the functional code in its entirety and run the method on the client side, verses when to send parameters within the `GET` request, run the method on the server and respond with only the returned data.
+- [ ] Attach a callback parameter to a fetch requesting functional code to evaluate on the server and pass the returned value through the callback before issuing the response.
 - [ ] Start developing a "single source of truth" TypeScript object function store.
 - [ ] Refactor as much code as possible from the `Tree.tsx` component to the Express server.
 - [ ] Use the Express server to reproduce the exact same Tree UI component in Svelte, Expo, Remix, Astro, Ember, Vue, Next, React Native, etc.
