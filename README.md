@@ -1,8 +1,10 @@
 # Rootedjs
 
-## Concepts and methodologies (Work-in-progress)
+## Work-in-progress
 
 ### _Stemmed from [https://github.com/matt-development-work/React-TypeScript-UI-Component-Library-Sample-with-Testing-and-A11y/tree/master/src/components/Tree](https://github.com/matt-development-work/React-TypeScript-UI-Component-Library-Sample-with-Testing-and-A11y/tree/master/src/components/Tree)_
+
+#### Concepts and Methodologies
 
 _This will be the first step of a plan to use individual and/or shared micro Express server instances to preserve and maintain highly-functional framework-independent frontend code!_ _**Step 1:** Refactor the [`getTreeNodeWithId`](https://github.com/matt-development-work/React-TypeScript-UI-Component-Library-Sample-with-Testing-and-A11y/blob/master/src/components/Tree/Tree.tsx#L96) function to an [Express](https://expressjs.com) server. The [Document](https://developer.mozilla.org/en-US/docs/Web/API/Document) methods within the [`getParentOfTreeNodeWithId`](https://github.com/matt-development-work/React-TypeScript-UI-Component-Library-Sample-with-Testing-and-A11y/blob/master/src/components/Tree/Tree.tsx#L181) function will need to run in the client. This function will make server requests where it currently invokes `getTreeNodeWithId()` and the client will receive the returned value as a payload. Then, document evidence of runtime performance profiling metrics comparing the server approach to the full client-side function execution just to fulfill curiosity. 🤔_
 
@@ -38,7 +40,7 @@ _This project will not turn into a framework and it will always be a resource fo
 
 @author [Matt Fagan](https://github.com/matt-development-work/)
 
-### TODO:
+#### TODO:
 
 - [x] Start a new repository with an Express TypeScript server.
 - [ ] Add [Hot Module Replacement](https://webpack.js.org/guides/hot-module-replacement/#via-the-nodejs-api)
