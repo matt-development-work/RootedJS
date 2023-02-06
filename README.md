@@ -40,7 +40,7 @@ _This project will not turn into a framework and it will always be a resource fo
 
 @author [Matt Fagan](https://github.com/matt-development-work/)
 
-#### TODO:
+#### TODO
 
 - [x] Start a new repository with an Express TypeScript server.
 - [ ] Add [Hot Module Replacement](https://webpack.js.org/guides/hot-module-replacement/#via-the-nodejs-api)
