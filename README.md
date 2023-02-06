@@ -41,6 +41,7 @@ _This project will not turn into a framework and it will always be a resource fo
 ### TODO:
 
 - [x] Start a new repository with an Express TypeScript server.
+- [ ] Add [Hot Module Replacement](https://webpack.js.org/guides/hot-module-replacement/#via-the-nodejs-api)
 - [ ] Bootstrap a [Vite](https://vitejs.dev) project with [Tailwind CSS](https://tailwindcss.com), TypeScript and [Testing Library](https://testing-library.com) within the repository and omit it from the build.
 - [ ] Add the [`Tree.tsx`](https://github.com/matt-development-work/React.js-TypeScript-UI-Component-Library-Sample-with-Testing-and-A11y/blob/master/src/components/Tree/Tree.tsx) component code as a React component.
 - [ ] Refactor the `root` data object and the `getTreeNodeWithId` function to the Express server and create endpoints for both.
