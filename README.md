@@ -1,6 +1,6 @@
 # Rootedjs
 
-## Work-in-progress
+## Concepts and methodologies (Work-in-progress)
 
 ### _Stemmed from [https://github.com/matt-development-work/React-TypeScript-UI-Component-Library-Sample-with-Testing-and-A11y/tree/master/src/components/Tree](https://github.com/matt-development-work/React-TypeScript-UI-Component-Library-Sample-with-Testing-and-A11y/tree/master/src/components/Tree)_
 
