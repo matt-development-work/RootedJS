@@ -44,7 +44,7 @@ _This project will not turn into a framework and it will always be a resource fo
 
 **@author [Matt Fagan](https://github.com/matt-development-work/)**
 
-_Rootedjs serves as a blog where I write freely, and there is no guarantee that any of the documented concepts will turn into public source code available within this repository. All concepts published here follow the terms of the MIT license as included within._
+_Rootedjs serves as a blog where I publish creative writing, and there is no guarantee that any concept here will turn into public source code available within this repository. All text follows the terms of the MIT license within._
 
 ---
 
