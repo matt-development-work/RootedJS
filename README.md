@@ -62,5 +62,5 @@ _"Rootedjs serves as a blog where I publish creative writing. There is no implic
 - [ ] Use the Express server to reproduce the exact same Tree UI component in Svelte, Expo, Remix, Astro, Ember, Vue, Next, React Native, etc.
 - [ ] Determine how to share the TypeScript object function store in all frontend frameworks.
 - [ ] Develop a test runner to validate DOM reproduction accuracy across frontend frameworks. See if a DOM paint testing dependency exists.
-- [ ] Implement stateless client sessions with cookie parsing.
+- [ ] Use cookie parsing to implement stateless client sessions.
 - [ ] Use websockets and process management to automate server-to-client payloads for database subscriptions.
