@@ -8,7 +8,7 @@
 
 This will be the first step of a plan to use individual and/or shared micro [Express.js](https://expressjs.com) server instances to preserve and maintain highly-functional framework-independent frontend code! **Step 1:** Refactor the [`getTreeNodeWithId`](https://github.com/matt-development-work/React-TypeScript-UI-Component-Library-Sample-with-Testing-and-A11y/blob/master/src/components/Tree/Tree.tsx#L96) function to an Express server. The [Document](https://developer.mozilla.org/en-US/docs/Web/API/Document) methods within the [`getParentOfTreeNodeWithId`](https://github.com/matt-development-work/React-TypeScript-UI-Component-Library-Sample-with-Testing-and-A11y/blob/master/src/components/Tree/Tree.tsx#L181) function will need to run in the client. This function will make server requests where it currently invokes `getTreeNodeWithId()` and the client will receive the returned value as a payload.
 
-Then document evidence of runtime performance profiling metrics comparing the server approach to the full client-side function execution, just to fulfill curiosity. 🤔
+Then document evidence of runtime performance profiling metrics comparing the server approach to the full client-side function execution, just to fulfill curiosity.  
 
 The next stage in this experiment will be to request all kinds of serialized functional code and classes from Express severs for client-side invocation wherein frontend components will initialize namespaces for function and data dependencies and will request code only when corresponding namespaces are reached. The namespaces will be shared across the framework's component tree by utilizing a [single source of truth](https://en.wikipedia.org/wiki/Single_source_of_truth), [TypeScript](https://www.typescriptlang.org) object function store. This can be a custom implementation or it can leverage methods and dependencies specific to the framework. Writing descriptively accurate namespaces will be encouraged.
 
@@ -54,7 +54,7 @@ _"Rootedjs serves as a blog where I publish creative writing. There is no implic
 - [ ] Bootstrap a [Vite](https://vitejs.dev) project with [Tailwind CSS](https://tailwindcss.com), TypeScript and [Testing Library](https://testing-library.com) within the repository and omit it from the build.
 - [ ] Add the [`Tree.tsx`](https://github.com/matt-development-work/React.js-TypeScript-UI-Component-Library-Sample-with-Testing-and-A11y/blob/master/src/components/Tree/Tree.tsx) component code as a React component.
 - [ ] Refactor the `root` data object and the `getTreeNodeWithId` function to the Express server and create endpoints for both.
-- [ ] Document evidence of runtime performance profiling metrics comparing the server approach to full client-side function execution just to fulfill curiosity. 🤔
+- [ ] Document evidence of runtime performance profiling metrics comparing the server approach to full client-side function execution just to fulfill curiosity. 
 - [ ] Use request parameters to discern when to `GET` the functional code in its entirety and run the method on the client side, verses when to send parameters within the `GET` request, run the method on the server and respond with only the returned data.
 - [ ] Attach a callback parameter to a fetch requesting functional code to evaluate on the server and pass the returned value through the callback before issuing the response.
 - [ ] Start developing a "single source of truth" TypeScript object function store.
@@ -62,4 +62,4 @@ _"Rootedjs serves as a blog where I publish creative writing. There is no implic
 - [ ] Use the Express server to reproduce the exact same Tree UI component in Svelte, Expo, Remix, Astro, Ember, Vue, Next, React Native, etc.
 - [ ] Determine how to share the TypeScript object function store in all frontend frameworks.
 - [ ] Develop a test runner to validate DOM reproduction accuracy across frontend frameworks. See if a DOM paint testing dependency exists.
-- [ ] Document various options for leveraging [Web Components](https://www.webcomponents.org).
+- [ ] Document various options for implementing [Web Components](https://www.webcomponents.org).
