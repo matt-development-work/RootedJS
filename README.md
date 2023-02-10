@@ -43,7 +43,7 @@ For companies wanting to rely more on human capabilities and less on programmati
 _This project will not turn into a framework and it will always be a resource for developers to reference many possible combinations of strategies to use for programming their own custom frontend server frameworks (and as package modules). Continuously-developing boilerplate server framework examples will always be available to deploy and use in their entirety. This project will always be open-source with Node.js as the only backend programming language while always being integrable with all backend technologies as a proxy server._
 
 **@author [Matt Fagan](https://github.com/matt-development-work/)**  
-_"Rootedjs serves as a blog where I publish creative writing. There is no implication that any concept represented in this resource will turn into public source code available here. All text documented in this repository is subject to the MIT license terms included."_
+_"Rootedjs serves as a blog where I publish creative writing. There is no implication that any concept represented in this resource will develop into public source code available here. All text documented in this repository is subject to the MIT license terms included."_
 
 ---
 
