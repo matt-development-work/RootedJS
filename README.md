@@ -58,7 +58,7 @@ _Rootedjs serves as a blog where I publish creative writing. There is no implica
 - [ ] Attach a callback parameter to a fetch requesting functional code to evaluate on the server and pass the returned value through the callback before issuing the response.
 - [ ] Start developing a "single source of truth" TypeScript object function store.
 - [ ] Refactor as much code as possible from the `Tree.tsx` component to the Express server.
-- [ ] Use the Express server to reproduce the exact same Tree UI component in Svelte, Expo, Remix, Astro, Ember, Vue, Next, React Native, etc.
+- [ ] Use the Express server to reproduce the exact same Tree UI component in Svelte, Expo, Remix, Astro, 11ty, Ember, Vue, Next, React Native, etc.
 - [ ] Determine how to share the TypeScript object function store in all frontend frameworks.
 - [ ] Develop a test runner to validate DOM reproduction accuracy across frontend frameworks. See if a DOM paint testing dependency exists.
 - [ ] Use cookie parsing to implement stateless client sessions.
