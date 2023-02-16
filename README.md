@@ -50,16 +50,19 @@ _Rootedjs serves as a blog where I publish creative writing. There is no implica
 
 - [x] Start a new repository with an Express TypeScript server.
 - [ ] Add [Webpack Hot Middleware](https://github.com/webpack-contrib/webpack-hot-middleware).
-- [ ] Bootstrap a [Vite](https://vitejs.dev) project with [Tailwind CSS](https://tailwindcss.com), TypeScript and [Testing Library](https://testing-library.com) within the repository and omit it from the build.
+- [ ] Bootstrap a [Vite](https://vitejs.dev) project with [Tailwind CSS](https://tailwindcss.com), TypeScript and [Testing Library](https://testing-library.com).
 - [ ] Add the [`Tree.tsx`](https://github.com/matt-development-work/React.js-TypeScript-UI-Component-Library-Sample-with-Testing-and-A11y/blob/master/src/components/Tree/Tree.tsx) component code as a React component.
 - [ ] Refactor the `root` data object and the `getTreeNodeWithId` function to the Express server and create endpoints for both.
 - [ ] Document evidence of runtime performance profiling metrics comparing the server approach to full client-side function execution just to fulfill curiosity. 
 - [ ] Use request parameters to discern when to `GET` the functional code in its entirety and run the method on the client side, verses when to send parameters within the `GET` request, run the method on the server and respond with only the returned data.
 - [ ] Attach a callback parameter to a fetch requesting functional code to evaluate on the server and pass the returned value through the callback before issuing the response.
-- [ ] Start developing a "single source of truth" TypeScript object function store.
-- [ ] Refactor as much code as possible from the `Tree.tsx` component to the Express server.
-- [ ] Use the Express server to reproduce the exact same Tree UI component in Svelte, Expo, Remix, Astro, 11ty, Ember, Vue, Next, React Native, etc.
-- [ ] Determine how to share the TypeScript object function store in all frontend frameworks.
-- [ ] Develop a test runner to validate DOM reproduction accuracy across frontend frameworks. See if a DOM paint testing dependency exists.
-- [ ] Use cookie parsing to implement stateless client sessions.
-- [ ] Use websockets and process management to automate server-to-client payloads for database subscriptions.
+- [ ] Add all namespaces for functional code to a "single source of truth" TypeScript object function store.
+- [ ] Refactor as much code as possible from the `Tree.tsx` component to the Express server as framework-independent TypeScript.
+- [ ] Use the Express server to reproduce same Tree UI component with many different client-side technologies including Svelte, Expo, Remix, Astro, 11ty, Ember, Vue, Next, React Native, JQuery, etc.
+- [ ] Program a test runner to validate DOM reproduction accuracy for all available combinations of client technologies and server technologies.
+- [ ] Consolidate functional code from the Express server into a [MongoDB Atlas Cluster](https://www.mongodb.com/docs/atlas/).
+- [ ] Reproduce the functionality of the Express server with many different Node.js server technologies including Fastify, Koa.js, hapi.js, nestjs, etc.
+- [ ] Update the test runner as-needed.
+- [ ] Continue planning the concept for the TypeScript object function store.
+- [ ] Use cookies to implement stateless client sessions.
+- [ ] Use WebSockets and process management to automate server-to-client payloads from database subscriptions.
