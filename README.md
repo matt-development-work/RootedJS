@@ -59,9 +59,9 @@ _Rootedjs serves as a blog where I publish creative writing. There is no implica
 - [ ] Add all namespaces for functional code to a "single source of truth" TypeScript object function store.
 - [ ] Refactor as much code as possible from the `Tree.tsx` component to the Express server as framework-agnostic TypeScript.
 - [ ] Program a test runner to validate DOM reproduction accuracy.
-- [ ] Use the Express server to reproduce same Tree UI component with many different client-side technologies including Svelte, Expo, Remix, Astro, 11ty, Ember, Vue, Next, React Native, JQuery, etc.
+- [ ] Use the Express server to replicate same Tree UI component with many different client-side technologies including Svelte, Expo, Remix, Astro, 11ty, Ember, Vue, Next, React Native, JQuery, etc.
 - [ ] Consolidate functional code from the Express server into a [MongoDB Atlas Cluster](https://www.mongodb.com/docs/atlas/).
-- [ ] Reproduce the functionality of the Express server with many different Node.js server technologies including Fastify, Koa.js, hapi.js, nestjs, etc.
+- [ ] Replicate the functionality of the Express server with many different Node.js server technologies including Fastify, Koa.js, hapi.js, nestjs, etc.
 - [ ] Update the test runner as-needed to ensure inclusivity of all server-to-client combinations of implemented client technologies and server technologies.
 - [ ] Continue planning the concept for the TypeScript object function store.
 - [ ] Use cookies to implement stateless client sessions.
