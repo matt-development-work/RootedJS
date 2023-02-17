@@ -53,7 +53,7 @@ _Rootedjs serves as a blog where I publish creative writing and document evidenc
 - [ ] Bootstrap a [Vite](https://vitejs.dev) project with [Tailwind CSS](https://tailwindcss.com), TypeScript and [Testing Library](https://testing-library.com).
 - [ ] Add the [`Tree.tsx`](https://github.com/matt-development-work/React.js-TypeScript-UI-Component-Library-Sample-with-Testing-and-A11y/blob/master/src/components/Tree/Tree.tsx) component code as a React component.
 - [ ] Refactor the `root` data object and the `getTreeNodeWithId` function to the Express server and create endpoints for both.
-- [ ] Document evidence of runtime performance profiling metrics comparing the server approach to full client-side function execution just to fulfill curiosity. 
+- [ ] Record runtime performance profiling metrics comparing the server approach to full client-side function execution just to fulfill curiosity. 
 - [ ] Use request parameters to discern when to `GET` the functional code in its entirety and run the method on the client side, verses when to send parameters within the `GET` request, run the method on the server and respond with only the returned data.
 - [ ] Attach a callback parameter to a fetch requesting functional code to evaluate on the server and pass the returned value through the callback before issuing the response.
 - [ ] Add all namespaces for functional code to a "single source of truth" TypeScript object function store.
