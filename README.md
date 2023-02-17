@@ -1,6 +1,6 @@
 # Rootedjs
 
-## _Thrifty Typescript_
+## _Thrifty TypeScript_
 
 ### _Stemmed from [https://github.com/matt-development-work/React-TypeScript-UI-Component-Library-Sample-with-Testing-and-A11y/tree/master/src/components/Tree](https://github.com/matt-development-work/React-TypeScript-UI-Component-Library-Sample-with-Testing-and-A11y/tree/master/src/components/Tree)_
 
@@ -67,4 +67,4 @@ _Rootedjs serves as a blog where I publish creative writing and document evidenc
 - [ ] Use cookies to implement stateless client sessions.
 - [ ] Use WebSockets and process management to automate server-to-client payloads from database subscriptions.
 
-_Rootedjs... Get it from the source!_
+_Rootedjs - Get it from the source!_
