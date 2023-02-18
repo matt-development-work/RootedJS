@@ -6,7 +6,7 @@
 
 #### Concepts and Methodologies
 
-This will be the first step of a plan to use micro [Express.js](https://expressjs.com) server instances and database clusters for [Code splitting](https://developer.mozilla.org/en-US/docs/Glossary/Code_splitting) to preserve and maintain framework-agnostic functional frontend code!  
+This will be the first step of a plan to use database clusters and micro [Express.js](https://expressjs.com) server instances for [Stateless protocol](https://en.m.wikipedia.org/wiki/Stateless_protocol) and [Code splitting](https://developer.mozilla.org/en-US/docs/Glossary/Code_splitting) to preserve and maintain framework-agnostic functional frontend code!  
 
 **Step 1:** Refactor the [`getTreeNodeWithId`](https://github.com/matt-development-work/React-TypeScript-UI-Component-Library-Sample-with-Testing-and-A11y/blob/master/src/components/Tree/Tree.tsx#L96) function to an Express server. The [Document](https://developer.mozilla.org/en-US/docs/Web/API/Document) methods within the [`getParentOfTreeNodeWithId`](https://github.com/matt-development-work/React-TypeScript-UI-Component-Library-Sample-with-Testing-and-A11y/blob/master/src/components/Tree/Tree.tsx#L181) function will need to run in the client. This function will make server requests where it currently invokes `getTreeNodeWithId()` and the client will receive the returned value as a payload.  
 
