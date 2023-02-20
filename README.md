@@ -1,4 +1,4 @@
-# Rootedjs
+# RootedJS
 
 ## _Thrifty TypeScript_
 
@@ -46,7 +46,7 @@ _This project will not turn into a framework and it will always be a resource fo
 
 _The primary message is to convey that frontend enginers can use Node.js server technologies to build custom framework-agnostic server-side rendering resources to replicate and extend capabilities of existing client framework server tools including [Next.js Pre-rendering](https://nextjs.org/docs/basic-features/pages#pre-rendering), [vite-plugin-ssr](https://vite-plugin-ssr.com/) and [Storybook's Server rendering](https://github.com/storybookjs/storybook/tree/main/app/server#server-rendering). We can take more control over our independently developed resources and always be a step ahead of framework technologies by sourcing their concepts and dependencies as-needed to continue developing our own server technologies to meet our own needs, while also contributing our new concept discoveries back to the frameworks we like and support._
 
-_Rootedjs serves as a blog where I publish creative technical writing about cheap architecture theory and document evidence of my conceptualization capability. There is no implication that concepts represented here will develop into open-source code available within. This project is complete as-is, and it always has room for growth. All text documented in this repository is subject to the terms of the [MIT license](https://github.com/matt-development-work/Rootedjs/blob/master/LICENSE.md) as included._
+_RootedJS serves as a blog where I publish creative technical writing about cheap architecture theory and document evidence of my conceptualization capability. There is no implication that concepts represented here will develop into open-source code available within. This project is complete as-is, and it always has room for growth. All text documented in this repository is subject to the terms of the [MIT license](https://github.com/matt-development-work/RootedJS/blob/master/LICENSE.md) as included._
 
 ---
 
@@ -72,4 +72,4 @@ _Rootedjs serves as a blog where I publish creative technical writing about chea
 - [ ] Use cookies to implement stateless client sessions.
 - [ ] Use WebSockets and process management to automate server-to-client payloads from database subscriptions.
 
-_Rootedjs - Get it from the source!_
+_RootedJS - Get it from the source!_
